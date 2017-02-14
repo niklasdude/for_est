@@ -2,7 +2,11 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-image: url("http://i.imgur.com/dhEKJ29.png");
+    background: #ff3535; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #ff3535 0%, #ff8e2b 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #ff3535 0%,#ff8e2b 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #ff3535 0%,#ff8e2b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3535', endColorstr='#ff8e2b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     opacity;
 }
 
@@ -74,4 +78,35 @@ a.selected {
     position: absolute;
     left:957;
     
+}
+.gen1{
+	text.align: center;
+	color: white;
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+	top: 180;	
+}
+.evo{
+background-color: white;
+    opacity: 0.8;
+    font-size: 40px;
+    text-opacity: 1;
+    color: #ff3535;	
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    text:"EVOLVE!";
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 800px;
+    right: 0;
+	top: 120;	
+}
+.evo:hover{
+	opacity: 0.7;
+	color: #ff8e2b;
 }
