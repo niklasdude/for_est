@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("http://i.imgur.com/dhEKJ29.png");
+    opacity;
+}
+
+.nav {
+    background-color: #000000;
+    opacity: 0.5;
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+       
+}
+.nav > li {
+    
+    display: inline-block;
+    padding: 0 40px 0 40px;
+    
+    
+    
+
+    
+}
+.nav > li > a {
+    text-decoration:none;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+.nav > li > a:hover {
+    
+ color: #49ff59
+       
+    
+}
+a.selected {
+  color: #49ff59      
+}
+#current a { color: #49ff59;}
+
+
+.a{ text-align: center;
+    background-color:#000000;
+    opacity: 0.5;
+    color: #ffffff;
+    height: 450px;
+    width: 450px;
+    border-color: #000000;
+    border-radius: 50%;
+    border: 1px solid #49ff59;
+    top: 180;
+    font-size: 20px;
+    color: #49ff59;
+    position: absolute;
+    left:507;}
+.b{
+    text-align: center;
+    background-color:#000000;
+    opacity: 0.5;
+    color: #ffffff;
+    height: 450px;
+    width: 450px;
+    border-color: #000000;
+    border-radius: 50%;
+    border: 1px solid #49ff59;
+    top: 180px;
+    font-size: 20px;
+    color: #49ff59;
+    position: absolute;
+    left:957;
+    
+}
