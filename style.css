@@ -43,13 +43,13 @@ p{
     -moz-transition: all .9s ease-out 0.05s;
     -o-transition: all .9s ease-out 0.05s;
     transition: all .9s ease-out 0.05s;
-	background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.4);
     background-color: rgba(0,0,0,0.1);
     color: #ffffff;
     list-style: none;
     text-align: center;
     padding: 20px 0 20px 0;
-    width:100%;
+   
     height: 20px;
        
 }
