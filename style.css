@@ -13,7 +13,7 @@ content-box{
 	margin: 0 auto;
   position: relative;
 	color: #000;
-	overflow: scroll;
+	
    
 }
 h1{
@@ -39,7 +39,7 @@ p{
 	max-width: 800px;
 	min-height: 200px;
 	max-height: 6000px;
-	overflow: scroll;
+	
 }
 
 .nav {
@@ -70,7 +70,7 @@ p{
     
     display: inline;
     padding: 0 2%;
-    overflow: scroll;
+    
 }
 .nav > li > a {
     text-decoration:none;
