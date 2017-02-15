@@ -43,8 +43,8 @@ p{
     -moz-transition: all .9s ease-out 0.05s;
     -o-transition: all .9s ease-out 0.05s;
     transition: all .9s ease-out 0.05s;
-    background-color: rgba(0,0,0,0.4);
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
     color: #ffffff;
     list-style: none;
     text-align: center;
@@ -58,8 +58,8 @@ p{
     -moz-transition: all .4s ease-out 0.1s;
     -o-transition: all .4s ease-out 0.1s;
     transition: all .4s ease-out 0.1s;
-	background-color: rgba(0,0,0,0.1);
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.8);
 }
 .nav > li {
     
