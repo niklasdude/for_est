@@ -1,8 +1,14 @@
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-image: url("http://i.imgur.com/dhEKJ29.png");
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/65/c2/9e/65c29e4f84cc2a0c28fa582abdd53490.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+
 	
 /**	background: #ff3535; /* Old browsers */
 /**background: -moz-radial-gradient(center, ellipse cover, #ff3535 0%, #ff8e2b 100%); /* FF3.6-15 */
@@ -14,19 +20,38 @@ body{
 	
 	opacity;
 }
-content-box{
-	margin: 0 auto;
-  position: relative;
-	color: #000;
+.content-box{
+	padding: 100px 0 0 0;
+    position: relative;
+    display: block;
+	top: 100px;
+	background-color: rgba(255,255,255,0.2);
+	width:40%;
+	margin: auto;
+	-webkit-transition: width 1s;
+	-webkit-transition: all .3s ease-out 0.05s;
+	color: rgb(168, 168, 168);
+	
 	
    
+}
+.content-box:hover{
+	
+	color: rgb(255, 255, 255);
+	background-color: rgba(0,0,0,0.3);
+	
+}
+#sample{
+	-webkit-transition: all .3s ease-out 0.05s;
+}
+.content-box:hover > .sample{
+	text-shadow: 0px 0px 2px white;
+	
 }
 h1{
 	word-spacing:0.3em;
 	letter-spacing:0.02em;
-	color: #fff;
-	margin: 0 auto;
-	left: 25%;
+	position: relative;
 	text-align: center;	
 	margin: 20px 0 20px 0;
 }
@@ -34,13 +59,11 @@ p{
 	line-height:1.7em;
 	word-spacing:0.5em;
 	letter-spacing:0.02em;
-	width: 33%;
+	width: 60%;
 	left: 25%;
 	word-wrap: break-word;
-	color:#fff;
 	text-align: center;
 	margin: 0 auto;
-	
 }
 
 .nav {
@@ -48,14 +71,15 @@ p{
     -moz-transition: all .9s ease-out 0.05s;
     -o-transition: all .9s ease-out 0.05s;
     transition: all .9s ease-out 0.05s;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.2);
     background-color: rgba(0,0,0,0.5);
-    color: #ffffff;
     list-style: none;
     text-align: center;
     padding: 20px 0 20px 0;
-   
+    position: fixed;
     height: 20px;
+    width: 100%;
+    z-index: 999;
        
 }
 .nav:hover{
@@ -64,10 +88,9 @@ p{
     -o-transition: all .4s ease-out 0.1s;
     transition: all .4s ease-out 0.1s;
 	background-color: rgba(0,0,0,0.5);
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.2);
 }
 .nav > li {
-    
     display: inline;
     padding: 0 2%;
     
@@ -81,7 +104,8 @@ p{
 
 .nav > li > a:hover {
     
- color: #49ff59
+ color: #49ff59;
+ text-shadow: 0px 0px 2px white;
        
     
 }
@@ -156,3 +180,5 @@ background-color: white;
 }
 
 
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
