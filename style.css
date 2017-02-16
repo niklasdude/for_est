@@ -35,6 +35,79 @@ body{
 	
    
 }
+.scoringbg{
+	position:relative;
+	display: block;
+	top: 90px;
+	background-color: rgba(255,255,255,0.2);
+	width:90%;
+	height: 85%;
+	margin: auto;
+	webkit-transition: width 1s;
+	-webkit-transition: all .3s ease-out 0.05s;
+	padding: 10px 10px 10px 10px;
+	
+}
+.date{
+	padding: 0px 20px 30px 20px;
+	position:relative;
+	height: 20px;
+	width: 300px;
+	border: 2px dotted rgb(255, 255, 255);
+	overflow: auto;
+	background-color:rgba(0,0,0,0.3);
+}
+.datetext{
+	color: #fff;
+	text-shadow: 0px 0px 2px white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 200%;
+	position: static;
+	margin:auto;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.game{
+	padding: 5px 5px 5px 5px;
+	position:relative;
+	top: 10px;
+	height: 120px;
+	width: 330px;
+	background-color: rgba(0,0,0,0.2);
+	border: 2px dotted rgba(255, 255, 255, 0.4);
+	-webkit-transition: all .2s ease-out 0.05s;
+	overflow: auto;
+	color: white;
+	
+}
+.game:hover{
+	background-color: rgba(0,0,0,0.3);
+	border: 2px dotted rgb(255, 255, 255);
+	color: white;
+	text-shadow: 0px 0px 2px white;	
+	
+	
+}
+.game:hover > .gametext{
+	font-size: 24px;
+	
+}
+.gametext{
+	-webkit-transition: all .4s ease-out 0.1s;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	position: static;
+	height: 100%;
+	width: 100%;
+	float: left;
+	overflow: scroll;
+}
+.scoringbg:hover{
+	color: rgb(168, 168, 168);
+	background-color: rgba(255,255,255,0.2);
+	
+}
 .content-box:hover{
 	
 	color: rgb(255, 255, 255);
@@ -178,7 +251,10 @@ background-color: white;
 	opacity: 0.7;
 	color: #ff8e2b;
 }
-@media only screen and (max-width:960px){body{background:url('https://s-media-cache-ak0.pinimg.com/736x/02/73/1d/02731d521f149295c3a5a343c4372386.jpg');}}
+@media only screen and (max-width:960px){body{background:url('https://s-media-cache-ak0.pinimg.com/736x/02/73/1d/02731d521f149295c3a5a343c4372386.jpg');background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;}}
 
 
 Contact GitHub API Training Shop Blog About
