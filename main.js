@@ -1,10 +1,14 @@
 /**
  JS for for_est* 
  */
-function main() {
+$('shots').hide();
 
+function main() {
+$(shots).hide();
 $('.body').hide();
 $('.body').fadeIn(1000);
+
+}
 
 
 jQuery({ Counter: 0 }).animate({ Counter: $('.Single').text() }, {
@@ -15,3 +19,13 @@ jQuery({ Counter: 0 }).animate({ Counter: $('.Single').text() }, {
 	  }
 	});
 $(document).ready(main);
+
+document.getElementById("testgame").onclick = function() {myFunction()};
+function myFunction() {
+	
+	$(gamestable).fadeOut(500);
+	$(shots).fadeIn(1000);
+	
+	
+		/*alert("Hello! I am an alert box!!");*/
+	}
