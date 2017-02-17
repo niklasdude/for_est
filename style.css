@@ -73,7 +73,7 @@ body{
     				CONTENT BOX  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 */
 .content-box{
-	padding: 100px 0 0 0;
+	padding: 80px 0 0 0;
     position: relative;
     display: block;
 	top: 100px;
@@ -152,8 +152,18 @@ p{
 #projli{
 	list-style: none;	
 }
+
 #pieme{
-	background-image: url('https://lh3.googleusercontent.com/9khjhMDRvD-vEcz-HfVBydU3M2zPDUfjZ3E71jW2fAKkVHr0W7dGYJfNUl76bnN9hA4=w300-rw');
+	background: url('https://lh3.googleusercontent.com/9khjhMDRvD-vEcz-HfVBydU3M2zPDUfjZ3E71jW2fAKkVHr0W7dGYJfNUl76bnN9hA4=w300-rw') no-repeat,-webkit-linear-gradient(-45deg, rgba(255, 137, 188,1) 0%,rgba(125,185,232,0) 100%);
+	background-size: contain;
+	/**background-repeat: no-repeat;*/
+}
+#pieme:hover{
+	background: url('https://lh3.googleusercontent.com/9khjhMDRvD-vEcz-HfVBydU3M2zPDUfjZ3E71jW2fAKkVHr0W7dGYJfNUl76bnN9hA4=w300-rw') no-repeat,-webkit-linear-gradient(-45deg, rgba(255, 147, 194,1) 0%,rgba(125,185,232,0) 100%);
+	background-size: contain;
+}
+#traperto{
+	background-image: url('https://traperto.com/wp-content/uploads/2015/03/logo_traperto_ohne_text.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	
@@ -270,6 +280,10 @@ p{
 	background-color: rgba(255,255,255,0.2);	
 }
 
+#shots{
+	padding: 15px 0px 0px 15px
+	
+}
 /**
 					EVO.html  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 */
@@ -305,6 +319,67 @@ p{
 	filter: hue-rotate(360deg);
 	color: white;
 	text-shadow: 0px 0px 2px white;
+	
+}
+
+/**
+   				    ABOUT.html	
+*/
+#profilepic{
+	position: relative;
+	top: 30px;
+	width: 13%;
+	border:7px solid rgba(255,255,255,0.4);
+	border-radius: 50%;	
+}
+.aboutbox{
+	padding: 10px 0 0 0;
+    position: relative;
+    display: block;
+	top: 100px;
+	background-color: rgba(0,0,0,0.3);
+	color: rgb(255, 255, 255);
+	width:40%;
+	height: 100%;
+	margin: auto;
+}
+.aboutheader{
+	color: #fff;
+	text-shadow: 0px 0px 2px white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 290%;
+	position: static;
+	margin:auto;
+	text-align: center;
+	font-weight: bold;
+	overflow: hidden;
+	text-decoration: underline;	
+	
+}
+#steph{
+	position:relative;
+	top:10px;
+}
+.abouttxt{
+	color: #fff;
+	text-shadow: 0px 0px 2px #fff;
+	font-family: 'Inconsolata', monospace;
+	font-size: 200%;
+	position: relative;
+	left: 30px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;	
+}
+.steckbrief{
+	padding 0;
+	position: absolute;
+	width: 90%;
+	left: 45px;
+	top: 190px;
+	
+	
+	
+	
 	
 }
 
