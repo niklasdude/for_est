@@ -77,16 +77,15 @@ body{
     position: relative;
     display: block;
 	top: 100px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(0,0,0,0.1);
 	width:40%;
 	margin: auto;
 	-webkit-transition: width 1s;
 	-webkit-transition: all .3s ease-out 0.05s;
-	color: rgb(168, 168, 168);   
+	color: rgb(255, 255, 255);  
 }
 .content-box:hover{
 	
-	color: rgb(255, 255, 255);
 	background-color: rgba(0,0,0,0.3);
 	
 }
@@ -111,8 +110,8 @@ p{
 	line-height:1.7em;
 	word-spacing:0.5em;
 	letter-spacing:0.02em;
-	width: 60%;
-	left: 25%;
+	width: 90%;
+	left: 15%;
 	word-wrap: break-word;
 	text-align: center;
 	margin: 0 auto;
@@ -152,15 +151,27 @@ p{
 #projli{
 	list-style: none;	
 }
-
+#bball{
+	top:10px;
+   position: absolute;
+   width: 33%;
+   overflow: hidden;
+   margin-top:auto;
+}
+#bballg:hover{
+	background: -moz-linear-gradient(-66deg, rgba(194,137,84,1) 0%, rgba(147,183,211,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-66deg, rgba(194,137,84,1) 0%,rgba(147,183,211,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(194,137,84,1) 0%,rgba(147,183,211,0) 100%);
+}
+#pieic{
+	width: 35%;
+	
+}
 #pieme{
-	background: url('https://lh3.googleusercontent.com/9khjhMDRvD-vEcz-HfVBydU3M2zPDUfjZ3E71jW2fAKkVHr0W7dGYJfNUl76bnN9hA4=w300-rw') no-repeat,-webkit-linear-gradient(-45deg, rgba(255, 137, 188,1) 0%,rgba(125,185,232,0) 100%);
-	background-size: contain;
-	/**background-repeat: no-repeat;*/
+	
 }
 #pieme:hover{
-	background: url('https://lh3.googleusercontent.com/9khjhMDRvD-vEcz-HfVBydU3M2zPDUfjZ3E71jW2fAKkVHr0W7dGYJfNUl76bnN9hA4=w300-rw') no-repeat,-webkit-linear-gradient(-45deg, rgba(255, 147, 194,1) 0%,rgba(125,185,232,0) 100%);
-	background-size: contain;
+	background-image:-webkit-linear-gradient(-45deg, rgba(255, 137, 188,1) 0%,rgba(125,185,232,0) 100%);
 }
 #traperto{
 	background-image: url('https://traperto.com/wp-content/uploads/2015/03/logo_traperto_ohne_text.png');
@@ -348,13 +359,17 @@ p{
 	text-shadow: 0px 0px 2px white;
 	font-family: 'Inconsolata', monospace;
 	font-size: 290%;
-	position: static;
+	position: relative;
 	margin:auto;
 	text-align: center;
 	font-weight: bold;
 	overflow: hidden;
 	text-decoration: underline;	
 	
+}
+#faq{
+	position: relative;
+	top:33%;
 }
 #steph{
 	position:relative;
