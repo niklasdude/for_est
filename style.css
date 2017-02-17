@@ -131,7 +131,7 @@ p{
 	webkit-transition: width 1s;
 	-webkit-transition: all .3s ease-out 0.05s;
 	padding: 10px 10px 10px 10px;
-	overflow: scroll;	
+	overflow: hidden;	
 }
 .project{
 	padding: 5px 5px 5px 5px;
