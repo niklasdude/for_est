@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+</head>  
+<body class="body">   
+  <ul class="nav">  
+      <li><a href="index.html" >HOME</a></li>
+      <li><a href="gallery.html">PROJECTS</a></li>
+      <!--  <li><a href="about.html">ABOUT</a></li> -->
+      <li id="current"><a href="about.html">GUESTBOOK</a></li>
+    </ul id="bookli"> 
+    <div id="wrapper">
+    	<div id="bookcase">
+    	<h1 class="datetext">RECENT MESSAGES:</h1>
+    	<div id="div1">
+			
+			</div>
+
+			<script>
+			function submit(){
+				if(document.getElementById('namex').value != "" && document.getElementById('booklet').value != ""){
+						
+						
+					    var kobe = document.createElement("p");
+						var para = document.createElement("p");
+						var parax = document.createElement("h3");
+						var kobex = document.createTextNode("");
+						var nodex = document.createTextNode(" - " + document.getElementById("namex").value + ", at " +Date());
+						var node = document.createTextNode(document.getElementById("booklet").value);
+						kobe.appendChild(kobex);
+						para.appendChild(node);
+						parax.appendChild(nodex);
+						var element = document.getElementById("div1");
+						element.appendChild(kobex);
+						element.appendChild(para);
+						element.appendChild(parax);
+						document.getElementById("namex").value = "";
+						document.getElementById("booklet").value = "";
+						
+				} 
+				else{
+				}
+			}
+			</script>
+    	</div>
+    	<div id="notebook">
+    	<h1 class="datetext">LEAVE YOUR MESSAGE</h1>
+    	<input type="text" name="name" id="namex" placeholder="YOUR NAME"oninput="Gradient()">
+    	<textarea id="booklet" placeholder="FEEL FREE TO LEAVE A MESSAGE HERE"></textarea>
+    	<button id="submit" onclick="submit()">POST TO PUBLIC</button>
+    	
+    	
+    	</div>
+  </div>
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script src='main.js'></script>
+</body>
+</html>

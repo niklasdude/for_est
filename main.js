@@ -19,7 +19,9 @@ jQuery({ Counter: 0 }).animate({ Counter: $('.Single').text() }, {
 	  }
 	});
 $(document).ready(main);
-
+function gradient(){
+	$("namex").css("background-color","blue");
+}
 document.getElementById("testgame").onclick = function() {myFunction()};
 function myFunction() {
 	
