@@ -13,37 +13,46 @@
 <body class="body">   
   <ul class="nav">  
       <li><a href="index.html" >HOME</a></li>
-      <li><a href="gallery.html">PROJECTS</a></li>
+      <li class="lipro"><a href="gallery.html">PROJECTS</a></li>
       <!--  <li><a href="about.html">ABOUT</a></li> -->
       <li id="current"><a href="about.html">GUESTBOOK</a></li>
-    </ul id="bookli"> 
+    </ul>
+   <ul class ="nav" id="probar">
+     <li><a>PIE.ME</a>
+     <li><a>SCORES</a>
+     <li><a>FOR_EST</a>
+     <li><a>EVO GAME</a>   
+   
+   
+   </ul> 
     <div id="wrapper">
     	<div id="bookcase">
     	<h1 class="datetext">RECENT MESSAGES:</h1>
     	<div id="div1">
 			
-			</div>
+		</div>
 
 			<script>
 			function submit(){
 				if(document.getElementById('namex').value != "" && document.getElementById('booklet').value != ""){
 						
 						
-					    var kobe = document.createElement("p");
-						var para = document.createElement("p");
-						var parax = document.createElement("h3");
-						var kobex = document.createTextNode("");
+						var para = document.createElement("h3");
+						var parax = document.createElement("p");
 						var nodex = document.createTextNode(" - " + document.getElementById("namex").value + ", at " +Date());
 						var node = document.createTextNode(document.getElementById("booklet").value);
-						kobe.appendChild(kobex);
 						para.appendChild(node);
 						parax.appendChild(nodex);
 						var element = document.getElementById("div1");
-						element.appendChild(kobex);
-						element.appendChild(para);
-						element.appendChild(parax);
+						linebreak = document.createElement("br");
+						element.appendChild(linebreak);
+						element.appendChild(linebreak);
+						element.prepend(parax);
+						element.prepend(para);
+						
 						document.getElementById("namex").value = "";
 						document.getElementById("booklet").value = "";
+						$('#namex').css('background-color','rgba(0,0,0,0.3)');
 						
 				} 
 				else{
@@ -54,7 +63,7 @@
     	<div id="notebook">
     	<h1 class="datetext">LEAVE YOUR MESSAGE</h1>
     	<input type="text" name="name" id="namex" placeholder="YOUR NAME"oninput="Gradient()">
-    	<textarea id="booklet" placeholder="FEEL FREE TO LEAVE A MESSAGE HERE"></textarea>
+    	<textarea id="booklet" placeholder="YOUR COMMENT..."></textarea>
     	<button id="submit" onclick="submit()">POST TO PUBLIC</button>
     	
     	
