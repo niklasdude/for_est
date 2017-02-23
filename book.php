@@ -60,8 +60,16 @@
 			}
 			</script>
     	<?php
-			$query = mysqli_query('select * from guestbook');
-			while ($entry = mysqli_fetch_object($query)) {printf("<p>Hallo</p>")}
+			$mysqli = new mysqli("localhost", "praktikant", "praktikant", "praktikant_01");
+			$query = $mysqli->query('select * from guestbook ORDER BY `id` DESC');
+			while ($entry = mysqli_fetch_array($query)) {
+				//var_dump($entry);
+				echo "\n\n";
+
+				echo '<h2>' . "&nbsp;" . $entry['message'] . '</h2>';
+				echo '<p class="whatever">' . ' - ' . $entry['nickname'] . " at " . date("Y/m/d") . "&nbsp;" . '</p>';
+				//echo $entry->nickname; 
+			}
 			?>
     	
     	</div>
