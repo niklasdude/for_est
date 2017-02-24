@@ -283,10 +283,12 @@ p{
 }
 .entrietxt{
 	font-family: 'Inconsolata', monospace;
-	font-size: 20px;
+	font-size: 24px;
 	position: static;
 	color: white;
 	overflow: hidden;	
+	text-align: center;
+	line-height: 2em;
 }
 .game{
 	padding: 5px 5px 5px 5px;
@@ -343,8 +345,9 @@ p{
 }
 
 #shots{
-	padding: 15px 0px 0px 15px
-	
+	padding: 15px 0px 0px 15px;
+	width:  90%;
+	margin: auto;
 }
 /**
 					EVO.html  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
