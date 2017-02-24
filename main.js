@@ -9,7 +9,6 @@ $('.body').hide();
 $('.body').fadeIn(1000);
 $('.lipro').hover(function(){
 	$('#probar').css('top','6%');
-	$('#probar').css('background-color','#fff')
 });
 }
 
