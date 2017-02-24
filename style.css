@@ -204,7 +204,7 @@ p{
 	
 }
 #forest:hover{
-    background-image:-webkit-linear-gradient(-45deg, rgba(0, 76, 22,1) 0%,rgba(125,185,232,0) 100%);
+    background-image:-webkit-linear-gradient(-45deg, rgba(152, 244, 66,1) 0%,rgba(125,185,232,0) 100%);
 }
 #evogame:hover{
     background-image:-webkit-linear-gradient(-45deg, rgba(191, 244, 66,1) 0%,rgba(125,185,232,0) 100%);
