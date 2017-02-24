@@ -59,10 +59,7 @@
 				}
 			}
 			</script>
-    	<?php
-			$query = mysqli_query('select * from guestbook');
-			while ($entry = mysqli_fetch_object($query)) {printf("<p>Hallo</p>")}
-			?>
+    	
     	
     	</div>
     	<div id="notebook">
@@ -70,7 +67,7 @@
     	<form action="post.php" method="post">
 	    	<input type="text" name="nickname" id="namex" placeholder="YOUR NAME"oninput="Gradient()">
 	    	<textarea id="booklet" placeholder="YOUR COMMENT..." name="message"></textarea>
-	    	<button type="submit" id="submit">POST TO PUBLIC</button>
+	    	<button onclick="submit" id="submit">POST TO PUBLIC</button>
     	</form>
     	
     	
