@@ -106,7 +106,8 @@ body{
 	margin: auto;
 	-webkit-transition: width 1s;
 	-webkit-transition: all .3s ease-out 0.05s;
-	color: rgb(255, 255, 255);  
+	color: rgb(255, 255, 255); 
+	border-radius: 25px;
 }
 .content-box:hover{
 	
